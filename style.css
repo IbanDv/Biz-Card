@@ -1,0 +1,37 @@
+.top-header {
+  background-color: #283747;
+  color:aliceblue;
+}
+/* color of font */
+main {
+  color: black;
+}
+
+footer {
+  background-color: #283747;
+  color:aliceblue;
+  padding: 5px;
+}
+/* Styles for the body */
+body {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif, serif, 'Times New Roman';
+  font-size: medium;
+  margin: auto;
+  padding: inherit;
+  background-color: #F2F3F4;
+}
+
+img {
+  height: 22em;
+  width: 20em;
+}
+/* link styles */
+a:link {
+  color: #FF0000;
+}
+
+a:hover {
+  color:lime;
+}
