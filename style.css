@@ -1,0 +1,57 @@
+.top-header {
+    background-color: #283747;
+    color:aliceblue;
+  }
+  /* color of font */
+  main {
+    color: black;
+  }
+  
+  footer {
+    background-color: #283747;
+    color:aliceblue;
+    padding: 5px;
+  }
+  /* Styles for the body */
+  body {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif, serif, 'Times New Roman';
+    font-size: medium;
+    margin: auto;
+    padding: 24px;
+    background-color: #F2F3F4;
+  }
+
+  p {
+      text-align: left;
+  }
+  
+/* size img */
+ img {
+  max-width: 100%;
+}
+
+/* Screen size*/
+@media only screen and (min-width: 600px) {
+  img {
+    max-width: 500px;
+  }
+}
+  /* link styles */
+  a:link {
+    color: #FF0000;
+  }
+
+  ul, ol {
+      text-align: left;
+  }
+
+  /* group & item */
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
